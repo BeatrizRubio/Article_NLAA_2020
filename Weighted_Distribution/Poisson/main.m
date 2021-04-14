@@ -14,9 +14,9 @@ A=zeros(n);
 
 t = zeros(1,n);
 b = zeros(1,n);
-lambda = 10;
+
 for i=1:n
-    t(i) = lambda*i/(n+1);
+    t(i) = i/(n+1);
     b(i) = (-1)^i * randi(100);
 end
 
