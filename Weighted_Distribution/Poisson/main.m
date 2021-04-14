@@ -16,7 +16,7 @@ t = zeros(1,n);
 b = zeros(1,n);
 
 for i=1:n
-    t(i) = i/(n+1);
+    t(i) = 10*i/(n+1);
     b(i) = (-1)^i * randi(100);
 end
 
